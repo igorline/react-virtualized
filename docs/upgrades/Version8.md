@@ -30,7 +30,7 @@ Due to the complexity of this change there is no codemod. However you can use th
 ```jsx
 // Can be used for Grid, List, or Table
 function createCellRenderer (cellRenderer) {
-  console.warn('cellRenderer udpate needed')
+  console.warn('cellRenderer update needed')
 
   return function cellRendererWrapper ({ key, style, ...rest }) {
     return (
